@@ -84,6 +84,7 @@ let q = 2;
 q--;
 console.log(q);
 
+
 //Comparison Operators
 
 //1. Is Equal To
@@ -141,6 +142,70 @@ const markHigherBMI = BMIMark > BMIJohn;
 console.log("BMI of Mark:",BMIMark);
 console.log("BMI of John:",BMIJohn);
 console.log("Is BMI of John More Tham BMI of Mark:",markHigherBMI);
+
+
+//String Methods
+
+//1. length
+
+var text = "Hello and Welcome to the JavaScript Tutorial."
+console.log("Length of Text:",text.length) 
+
+//2. slice()
+
+var text = "Hello and Welcome to the JavaScript Tutorial."
+var slicedText = text.slice(10,17)
+console.log(slicedText)
+
+var text = "Hello and Welcome to the JavaScript Tutorial."
+var slicedText = text.slice(-9,-1)
+console.log(slicedText)
+
+var text = "Hello and Welcome to the JavaScript Tutorial."
+var slicedText = text.slice(10)
+console.log(slicedText)
+
+//3. substring()
+
+var text = "Hello and Welcome to the JavaScript Tutorial."
+var substringText = text.substring(-10)
+console.log(substringText)
+
+//4. substr()
+
+var text = "Hello and Welcome to the JavaScript Tutorial."
+var substrText = text.substr(-20,10)
+console.log(substrText)
+
+//5. replace()
+
+var text = "Hello and Welcome to the JavaScript Tutorial."
+var newText = text.replace("and","Abhishek,")
+console.log(newText)
+
+var text = "Hello and Welcome to the JavaScript Tutorial."
+var newText = text.replace(/And/i,"Abhishek,")
+console.log(newText)
+
+//6. toUpperCase()
+
+var text = "Hello and Welcome to the JavaScript Tutorial."
+var newText = text.toUpperCase()
+console.log(newText)
+
+//7. toLowerCase()
+
+var text = "Hello and Welcome to the JavaScript Tutorial."
+var newText = text.toLowerCase()
+console.log(newText)
+
+//8. concat()
+
+
+
+
+
+
 
 
 
