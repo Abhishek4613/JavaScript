@@ -114,7 +114,7 @@ There are two types of DataType in JavaScript
 | % | Modulus | 52 % 10 = 2 | 
 | ++ | Incriment | let a = 5; a++; Now a = 6 | 
 | -- | Decrement | let a = 5; a--; Now a = 4 | 
-| | |
+
 
 
 ### B. JavaScript Comparison Operators
@@ -130,7 +130,7 @@ There are two types of DataType in JavaScript
 | >= | Greater Than or Equal To | 20>=10 = true |
 | < | Less Than | 20<10 = false |
 | <= | Less Than or Equal To | 20<=10 = false |
-| | |
+
 
 
 ### C. JavaScript Bitwise Operators
@@ -144,7 +144,7 @@ There are two types of DataType in JavaScript
 | << | Bitwise Left Shift | (10<<2) = 40 |
 | >> | Bitwise Right Shift | (10>>2) = 2 |
 | >>> | Bitwise Right Shift with Zero| (10>>>2) = 2 |
-| | |
+
 
 
 ### D. JavaScript Logical Operators
@@ -154,7 +154,7 @@ There are two types of DataType in JavaScript
 | && | 	Logical AND | (10==20 && 20==33) = false |
 | \|\| | Logical OR | (10==20 || 20==33) = false |
 | ! | Logical Not | !(10==20) = true |
-| | |
+
 
 
 ### E. JavaScript Assignment Operators
@@ -167,7 +167,7 @@ There are two types of DataType in JavaScript
 | *= | Multiply and Assign |  var a=10; a*=20; Now a = 200 |
 | /= | Divide and Assign | var a=10; a/=2; Now a = 5 |
 | %= | Modulus and Assign | var a=10; a%=2; Now a = 0 |
-| | |
+
 
 
 ### F. JavaScript Special Operators
@@ -183,7 +183,7 @@ There are two types of DataType in JavaScript
 | typeof | Checks the type of object|
 | void | It discards the expression's return value.|
 | yield | Checks what is returned in a generator by the generator's iterator.|
-| | |
+
 
 
 ## JavaScript - String Methods
