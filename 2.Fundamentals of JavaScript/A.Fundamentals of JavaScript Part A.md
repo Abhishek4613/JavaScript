@@ -81,7 +81,8 @@ There are two types of DataType in JavaScript
 
 **Types of Premitive DataType**
 
-1. - 2. Number
+1. String
+2. Number
 3. Bigint
 4. Boolean
 5. Undefined
