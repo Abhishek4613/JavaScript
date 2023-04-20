@@ -81,8 +81,7 @@ There are two types of DataType in JavaScript
 
 **Types of Premitive DataType**
 
-1. String
-2. Number
+1. - 2. Number
 3. Bigint
 4. Boolean
 5. Undefined
@@ -184,4 +183,72 @@ There are two types of DataType in JavaScript
 | void | It discards the expression's return value.|
 | yield | Checks what is returned in a generator by the generator's iterator.|
 | | |
+
+
+## JavaScript - String Methods
+
+**General Methods**
+
+- **length**: Returns the length of any string.
+
+- **slice()**: Extracts a part of a string and returns the extracted part in a new string.
+    - The method takes 2 parameters: start position, and end position (end not included).
+    - If you omit the second parameter, the method will slice out the rest of the string.
+    - If a parameter is negative, the position is counted from the end of the string.
+    
+- **substring()**: It is similar to the slice. The only difference is that start and end values less than 0 are treated as 0 in substring().
+
+- **substr()**: It is similar to slice().
+The only difference is that the second parameter specifies the length of the extracted part.
+
+- **replace()**: The replace() method replaces a specified value with another value in a string.
+    - The replace() method does not change the string it is called on.
+    - The replace() method returns a new string.
+    - The replace() method replaces only the first match.
+    - If you want to replace all matches, use a regular expression with the /g flag set.
+    - The replace() method is case sensitive.
+    - To replace case insensitive, use a regular expression with an /i flag set.       
+
+- **replaceAll()**: 
+
+- **toUpperCase()**: A string is converted to upper case with toUpperCase().
+
+- **toLowerCase()**: A string is converted to lower case with toLowerCase().
+
+- **concat()**: It joins two or more strings. The concat() method can be used instead of the plus operator.
+
+- **trim()**: Removes whitespace from both sides of a string.
+
+- **trimStart()**: Removes whitespace only from the start of a string.
+
+- **trimEnd()**: Removes whitespace only from the end of a string.
+
+- **padStart()**: It pads a string with another string (multiple times) until it reaches a given length from the start.
+
+- **padEnd()**: It pads a string with another string (multiple times) until it reaches a given length from the end.
+
+- **charAt()**: Returns the character at a specified index (position) in a string.
+
+- **charCodeAt()**: Returns the unicode of the character at a specified index (position) in a string
+
+- **split()**: This method is used to split a string into an array of substrings based on a specified separator.
+
+
+**Search Methods**
+
+- indexOf()
+- lastIndexOf()
+- search()
+- match()
+- matchAll()
+- includes()
+- startsWith()
+- endsWith()
+
+
+
+
+
+
+
 
