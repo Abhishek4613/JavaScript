@@ -201,6 +201,20 @@ console.log(newText)
 
 //8. concat()
 
+var textA = "Hello and Welcome to"
+var textB = "the JavaScript Tutorial."
+var newText = textA.concat(" ",textB)
+console.log(newText)
+
+//9. trim(), trimStart(), trimEnd()
+
+var text = "  Abhishek  "
+var newTextA = text.trim()
+var newTextB = text.trimStart()
+var newTextC = text.trimEnd()
+console.log(newTextA)
+console.log(newTextB)
+console.log(newTextC)
 
 
 
