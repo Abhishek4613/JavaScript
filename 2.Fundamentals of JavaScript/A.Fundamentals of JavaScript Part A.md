@@ -235,17 +235,17 @@ The only difference is that the second parameter specifies the length of the ext
 
 - **search()**: Searches a string for a string  or a regular expression and returns the position of the match.
 
-**indexOf() method does not support regular repression.
+        **indexOf() method does not support regular repression.
 
-- **match()**: 
+- **match()**: Returns an array containing the results of matching a string against a string or a regular expression.
 
-- **matchAll()**:
+- **matchAll()**: Returns an iterator containing the results of matching a string against a string or a regular expression.
 
-- **includes()**: Returns true if a string contains a specified value. Otherwise it returns false.
+- **includes()**: Returns true if a string contains a specified value. Otherwise it returns false. It can take second argument as index from where we want to search begins.
 
-- **startsWith()**: Returns true if a string begins with a specified value.
+- **startsWith()**: Returns true if a string begins with a specified value. It can take second argument as index from where we want to search begins.
 
-- **endsWith()**: Returns true if a string ends with a specified value.
+- **endsWith()**: Returns true if a string ends with a specified value. It can take second argument as index from where we want to search begins.
 
 
 ## JavaScript Template Literals
