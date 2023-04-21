@@ -235,7 +235,7 @@ The only difference is that the second parameter specifies the length of the ext
 
 - **search()**: Searches a string for a string  or a regular expression and returns the position of the match.
 
-        **indexOf() method does not support regular repression.
+   indexOf() method does not support regular repression.
 
 - **match()**: Returns an array containing the results of matching a string against a string or a regular expression.
 
