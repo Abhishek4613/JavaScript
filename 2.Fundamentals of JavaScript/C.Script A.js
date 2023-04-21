@@ -259,14 +259,26 @@ var searchB = text.search(/locate/g)
 console.log(searchA)
 console.log(searchB)
 
-//15. 
+//15. match(), matchAll()
+
+
+
+//16. include()
 
 
 
 
+//17. startsWith(), endsWith()
 
-
-
+var text = "Please locate where 'locate' occurs!";
+var startsWithA = text.startsWith("locate")
+var startsWithB = text.startsWith("locate",7)
+var endsWithA = text.endsWith("locate")
+var endsWithB = text.endsWith("locate",27)
+console.log(startsWithA)
+console.log(startsWithB)
+console.log(endsWithA)
+console.log(endsWithB)
 
 // Template Literals
 
