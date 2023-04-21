@@ -1,10 +1,5 @@
 # Fundamentals of JavaScript: Part A
 
-## JavaScript Syntax
-
-JavaScript Syntax is the set of rules, how JavaScript programs are constructed.
-
-
 ## JavaScript Values
 
 The JavaScript syntax defines two types of values:
@@ -99,6 +94,7 @@ There are two types of DataType in JavaScript
 
 **Note:** JavaScript has Dynamic Typing. We do not have to manually define the datatype of the value stored in a variable. Insted datatype are determined autometically at run time.
 
+
 ## JavaScript Operators
 
 ### A. JavaScript Arithmatic Operators
@@ -188,7 +184,6 @@ There are two types of DataType in JavaScript
 
 ## JavaScript - String Methods
 
-**General Methods**
 
 - **length**: Returns the length of any string.
 
@@ -234,18 +229,35 @@ The only difference is that the second parameter specifies the length of the ext
 
 - **split()**: This method is used to split a string into an array of substrings based on a specified separator.
 
+- **indexOf()**: Returns the index (position) of the first occurrence of a specified text in a string.
 
-**Search Methods**
+- **lastIndexOf()**: Returns the index (position) of the last occurrence of a specified text in a string
 
-- indexOf()
-- lastIndexOf()
-- search()
-- match()
-- matchAll()
-- includes()
-- startsWith()
-- endsWith()
+- **search()**: Searches a string for a string  or a regular expression and returns the position of the match.
 
+**indexOf() method does not support regular repression.
+
+- **match()**: 
+
+- **matchAll()**:
+
+- **includes()**: Returns true if a string contains a specified value. Otherwise it returns false.
+
+- **startsWith()**: Returns true if a string begins with a specified value.
+
+- **endsWith()**: Returns true if a string ends with a specified value.
+
+
+## JavaScript Template Literals
+
+
+- **Quotes Inside Strings**: With template literals, we can use both single and double quotes inside a string.
+
+- **Multiline Strings**: Template literals allows multiline strings.
+
+- **Interpolation**: With template literals we can easely interpolate variables and expressions into strings.
+
+- **Expression Substitution**: Template literals allow expressions in strings.
 
 
 

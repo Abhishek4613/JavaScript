@@ -216,11 +216,84 @@ console.log(newTextA)
 console.log(newTextB)
 console.log(newTextC)
 
+//10. padStart(), padEnd()
+
+var text = "5"
+var paddedStart = text.padStart(4,"X")
+var paddedEnd = text.padEnd(4,"X")
+console.log(paddedStart)
+console.log(paddedEnd)
+
+//11. charAt(), charCodeAt()
+
+var text = "HELLO ABHAY"
+var char = text.charAt(7)
+var code = text.charCodeAt(7)
+console.log(char)
+console.log(code)
+
+//12. split()
+
+var text = "Hello and Welcome to the JavaScript Tutorial."
+var textArray = text.split(" ")
+console.log(textArray)
+
+
+let text = "The rain in SPAIN stays mainly in the plain."
+let s = text.matchAll(/ain/gi)
+console.log(s); 
+
+//13. indexOf(), lastIndexOf()
+
+var text = "Please locate where 'locate' occurs!"
+var index = text.indexOf("locate")
+var lastindex = text.lastIndexOf("locate")
+console.log(index)
+console.log(lastindex)
+
+//14. search()
+
+var text = "Please locate where 'locate' occurs!"
+var searchA = text.search("locate")
+var searchB = text.search(/locate/g)
+console.log(searchA)
+console.log(searchB)
+
+//15. 
 
 
 
 
 
 
+
+
+// Template Literals
+
+//1. Quotes Inside Strings
+
+var text = `Hello "Abhay", Welcome to the 'JavaScript' Tutorial.`
+console.log(text)
+
+//2. Multiple Lines
+
+var text = 
+`Hello "Abhay",
+Welcome to the 'JavaScript' Tutorial.`
+console.log(text)
+
+//3. Interpolation - Variable Substitution
+
+var candidateName = "Abhay Gaur"
+var language = "JavaScript"
+var text = `Hello ${candidateName}, Welcome to the ${language} Tutorial.`
+console.log(text)
+
+//4. Interpolation - Expression Substitution
+
+var price = 10
+var VAT = 0.25
+var total = `Total: ${(price * (1 + VAT)).toFixed(2)}`
+console.log(total)
 
 
