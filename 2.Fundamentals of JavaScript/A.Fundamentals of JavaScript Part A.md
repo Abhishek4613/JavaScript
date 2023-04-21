@@ -12,7 +12,7 @@ Fixed values are called Literals.
 Variable values are called Variables.
 
 
-### JavaScript Variables
+## JavaScript Variables
 
 Variables are containers for storing data (storing data values).
 
@@ -258,7 +258,6 @@ The only difference is that the second parameter specifies the length of the ext
 - **Interpolation**: With template literals we can easely interpolate variables and expressions into strings.
 
 - **Expression Substitution**: Template literals allow expressions in strings.
-
 
 
 
