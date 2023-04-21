@@ -8,10 +8,10 @@ var ID = "EXP-2302015"
 
 const joiningDate = new Date("2023-02-27")
 
-console.log("First Name:",firstName)
-console.log("Last Name:",lastName)
-console.log("Employee ID:",ID)
-console.log("Date of Joining:",joiningDate)
+console.log("First Name:", firstName)
+console.log("Last Name:", lastName)
+console.log("Employee ID:", ID)
+console.log("Date of Joining:", joiningDate)
 
 // DataType 
 
@@ -19,19 +19,19 @@ var a = "Abhay";
 var b = 2200
 var c = 9999999999999999n;
 var d = false;
-var e; 
+var e;
 var f = null
 var g = Symbol
-var h = {firstName:"John", lastName:"Doe", age:50, eyeColor:"Blue"};
+var h = { firstName: "John", lastName: "Doe", age: 50, eyeColor: "Blue" };
 
-console.log("DataType of x:",typeof x)
-console.log("DataType of y:",typeof y)
-console.log("DataType of c:",typeof c)
-console.log("DataType of d:",typeof d)
-console.log("DataType of e:",typeof e)
-console.log("DataType of f:",typeof f)
-console.log("DataType of g:",typeof g)
-console.log("DataType of h:",typeof h)
+console.log("DataType of x:", typeof x)
+console.log("DataType of y:", typeof y)
+console.log("DataType of c:", typeof c)
+console.log("DataType of d:", typeof d)
+console.log("DataType of e:", typeof e)
+console.log("DataType of f:", typeof f)
+console.log("DataType of g:", typeof g)
+console.log("DataType of h:", typeof h)
 
 
 // OPERATORS
@@ -53,13 +53,13 @@ console.log(z)
 //3. Multiplication
 var x = 10;
 var y = 3;
-var z = x*y;
+var z = x * y;
 console.log(x)
 
 //4. Exponent
 var x = 4;
 var y = 3;
-var z = 4**3;
+var z = 4 ** 3;
 console.log(z)
 
 //5. Division
@@ -90,42 +90,42 @@ console.log(q);
 //1. Is Equal To
 var x = 20;
 var y = 30;
-console.log(x==y);
+console.log(x == y);
 
 //2. Identical
 var x = 20;
 var y = "20";
-console.log(x===y);
+console.log(x === y);
 
 //3. Is Not Equal To
 var x = 25;
 var y = "25";
-console.log(x!=y);
+console.log(x != y);
 
 //4. Not Identical
 var x = 20;
 var y = "20";
-console.log(x!==y);
+console.log(x !== y);
 
 //5. Greater Than
 var x = 39;
 var y = 41;
-console.log(y>x);
+console.log(y > x);
 
 //6. Greater Than or Equal To
 var x = 39;
 var y = 41;
-console.log(y>=x);
+console.log(y >= x);
 
 //7. Less Than
 var x = 39;
 var y = 41;
-console.log(y<x);
+console.log(y < x);
 
 //8. Less Than or Equal To
 var x = 39;
 var y = 41;
-console.log(x<=y);
+console.log(x <= y);
 
 
 //Practice Question: Given Mass and Height of Mark and John. Compare their BMI.
@@ -136,12 +136,12 @@ const massJohn = 85;
 const heightJohn = 1.76;
 
 const BMIMark = massMark / heightMark ** 2;
-const BMIJohn = massJohn / heightJohn **2;
+const BMIJohn = massJohn / heightJohn ** 2;
 const markHigherBMI = BMIMark > BMIJohn;
 
-console.log("BMI of Mark:",BMIMark);
-console.log("BMI of John:",BMIJohn);
-console.log("Is BMI of John More Tham BMI of Mark:",markHigherBMI);
+console.log("BMI of Mark:", BMIMark);
+console.log("BMI of John:", BMIJohn);
+console.log("Is BMI of John More Tham BMI of Mark:", markHigherBMI);
 
 
 //String Methods
@@ -149,16 +149,16 @@ console.log("Is BMI of John More Tham BMI of Mark:",markHigherBMI);
 //1. length
 
 var text = "Hello and Welcome to the JavaScript Tutorial."
-console.log("Length of Text:",text.length) 
+console.log("Length of Text:", text.length)
 
 //2. slice()
 
 var text = "Hello and Welcome to the JavaScript Tutorial."
-var slicedText = text.slice(10,17)
+var slicedText = text.slice(10, 17)
 console.log(slicedText)
 
 var text = "Hello and Welcome to the JavaScript Tutorial."
-var slicedText = text.slice(-9,-1)
+var slicedText = text.slice(-9, -1)
 console.log(slicedText)
 
 var text = "Hello and Welcome to the JavaScript Tutorial."
@@ -174,17 +174,17 @@ console.log(substringText)
 //4. substr()
 
 var text = "Hello and Welcome to the JavaScript Tutorial."
-var substrText = text.substr(-20,10)
+var substrText = text.substr(-20, 10)
 console.log(substrText)
 
 //5. replace()
 
 var text = "Hello and Welcome to the JavaScript Tutorial."
-var newText = text.replace("and","Abhishek,")
+var newText = text.replace("and", "Abhishek,")
 console.log(newText)
 
 var text = "Hello and Welcome to the JavaScript Tutorial."
-var newText = text.replace(/And/i,"Abhishek,")
+var newText = text.replace(/And/i, "Abhishek,")
 console.log(newText)
 
 //6. toUpperCase()
@@ -203,7 +203,7 @@ console.log(newText)
 
 var textA = "Hello and Welcome to"
 var textB = "the JavaScript Tutorial."
-var newText = textA.concat(" ",textB)
+var newText = textA.concat(" ", textB)
 console.log(newText)
 
 //9. trim(), trimStart(), trimEnd()
@@ -219,8 +219,8 @@ console.log(newTextC)
 //10. padStart(), padEnd()
 
 var text = "5"
-var paddedStart = text.padStart(4,"X")
-var paddedEnd = text.padEnd(4,"X")
+var paddedStart = text.padStart(4, "X")
+var paddedEnd = text.padEnd(4, "X")
 console.log(paddedStart)
 console.log(paddedEnd)
 
@@ -241,7 +241,7 @@ console.log(textArray)
 
 let text = "The rain in SPAIN stays mainly in the plain."
 let s = text.matchAll(/ain/gi)
-console.log(s); 
+console.log(s);
 
 //13. indexOf(), lastIndexOf()
 
@@ -272,9 +272,9 @@ console.log(searchB)
 
 var text = "Please locate where 'locate' occurs!";
 var startsWithA = text.startsWith("locate")
-var startsWithB = text.startsWith("locate",7)
+var startsWithB = text.startsWith("locate", 7)
 var endsWithA = text.endsWith("locate")
-var endsWithB = text.endsWith("locate",27)
+var endsWithB = text.endsWith("locate", 27)
 console.log(startsWithA)
 console.log(startsWithB)
 console.log(endsWithA)
@@ -289,8 +289,8 @@ console.log(text)
 
 //2. Multiple Lines
 
-var text = 
-`Hello "Abhay",
+var text =
+    `Hello "Abhay",
 Welcome to the 'JavaScript' Tutorial.`
 console.log(text)
 
