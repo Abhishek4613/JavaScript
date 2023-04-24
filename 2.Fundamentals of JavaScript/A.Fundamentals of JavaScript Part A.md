@@ -95,6 +95,20 @@ There are two types of DataType in JavaScript
 **Note:** JavaScript has Dynamic Typing. We do not have to manually define the datatype of the value stored in a variable. Insted datatype are determined autometically at run time.
 
 
+
+## JavaScript Type Conversion and Type Coercion
+
+**Type Conversion**: Type conversion (or typecasting) means transfer of data from one data type to another. Implicit conversion happens when the compiler (for compiled languages) or runtime (for interpreted language) automatically converts data types. 
+
+There are two type of type conversion:
+
+1. **Implicit Conversion**: In certain situations, JavaScript automatically converts one data type to another (to the right type). This is known as implicit conversion.
+2. **Explicit Conversion**: We can also convert one data type to another as per your needs using built in methods. This is known as explicit conversion.
+
+
+
+
+
 ## JavaScript Operators
 
 ### A. JavaScript Arithmatic Operators
@@ -229,13 +243,11 @@ The only difference is that the second parameter specifies the length of the ext
 
 - **split()**: This method is used to split a string into an array of substrings based on a specified separator.
 
-- **indexOf()**: Returns the index (position) of the first occurrence of a specified text in a string.
+- **indexOf()**: Returns the index (position) of the first occurrence of a specified text in a string. It does not support regular repression.
 
 - **lastIndexOf()**: Returns the index (position) of the last occurrence of a specified text in a string
 
 - **search()**: Searches a string for a string  or a regular expression and returns the position of the match.
-
-   indexOf() method does not support regular repression.
 
 - **match()**: Returns an array containing the results of matching a string against a string or a regular expression.
 
