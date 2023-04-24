@@ -105,6 +105,9 @@ There are two type of type conversion:
 1. **Implicit Conversion**: In certain situations, JavaScript automatically converts one data type to another (to the right type). This is known as implicit conversion.
 2. **Explicit Conversion**: We can also convert one data type to another as per your needs using built in methods. This is known as explicit conversion.
 
+**Explict Conversion**
+
+
 
 
 
@@ -127,6 +130,7 @@ There are two type of type conversion:
 
 
 
+
 ### B. JavaScript Comparison Operators
 
 
@@ -140,6 +144,7 @@ There are two type of type conversion:
 | >= | Greater Than or Equal To | 20>=10 = true |
 | < | Less Than | 20<10 = false |
 | <= | Less Than or Equal To | 20<=10 = false |
+
 
 
 
@@ -157,6 +162,7 @@ There are two type of type conversion:
 
 
 
+
 ### D. JavaScript Logical Operators
 
 | Operators | Description | Example | 
@@ -164,6 +170,7 @@ There are two type of type conversion:
 | && | 	Logical AND | (10==20 && 20==33) = false |
 | \|\| | Logical OR | (10==20 \|\| 20==33) = false |
 | ! | Logical Not | !(10==20) = true |
+
 
 
 
@@ -180,6 +187,7 @@ There are two type of type conversion:
 
 
 
+
 ### F. JavaScript Special Operators
 
 | Operators | Description | 
@@ -193,6 +201,7 @@ There are two type of type conversion:
 | typeof | Checks the type of object|
 | void | It discards the expression's return value.|
 | yield | Checks what is returned in a generator by the generator's iterator.|
+
 
 
 
