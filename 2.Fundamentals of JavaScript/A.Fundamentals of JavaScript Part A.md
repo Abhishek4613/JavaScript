@@ -116,7 +116,6 @@ There are two type of type conversion:
 
 ### A. JavaScript Arithmatic Operators
 
-
 | Operators | Description | Example | 
 | :---: | :---: | :---: | 
 | + | Addition | 10 + 10 = 20 | 
@@ -128,11 +127,7 @@ There are two type of type conversion:
 | ++ | Incriment | let a = 5; a++; Now a = 6 | 
 | -- | Decrement | let a = 5; a--; Now a = 4 | 
 
-
-
-
 ### B. JavaScript Comparison Operators
-
 
 | Operators | Description | Example | 
 | :---: | :---: | :---: |
@@ -144,9 +139,6 @@ There are two type of type conversion:
 | >= | Greater Than or Equal To | 20>=10 = true |
 | < | Less Than | 20<10 = false |
 | <= | Less Than or Equal To | 20<=10 = false |
-
-
-
 
 ### C. JavaScript Bitwise Operators
 
@@ -160,9 +152,6 @@ There are two type of type conversion:
 | >> | Bitwise Right Shift | (10>>2) = 2 |
 | >>> | Bitwise Right Shift with Zero| (10>>>2) = 2 |
 
-
-
-
 ### D. JavaScript Logical Operators
 
 | Operators | Description | Example | 
@@ -170,9 +159,6 @@ There are two type of type conversion:
 | && | 	Logical AND | (10==20 && 20==33) = false |
 | \|\| | Logical OR | (10==20 \|\| 20==33) = false |
 | ! | Logical Not | !(10==20) = true |
-
-
-
 
 ### E. JavaScript Assignment Operators
 
@@ -184,9 +170,6 @@ There are two type of type conversion:
 | *= | Multiply and Assign |  var a=10; a*=20; Now a = 200 |
 | /= | Divide and Assign | var a=10; a/=2; Now a = 5 |
 | %= | Modulus and Assign | var a=10; a%=2; Now a = 0 |
-
-
-
 
 ### F. JavaScript Special Operators
 
@@ -202,11 +185,7 @@ There are two type of type conversion:
 | void | It discards the expression's return value.|
 | yield | Checks what is returned in a generator by the generator's iterator.|
 
-
-
-
 ## JavaScript - String Methods
-
 
 - **length**: Returns the length of any string.
 

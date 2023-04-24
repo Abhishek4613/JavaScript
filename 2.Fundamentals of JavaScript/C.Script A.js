@@ -33,6 +33,10 @@ console.log("DataType of f:", typeof f)
 console.log("DataType of g:", typeof g)
 console.log("DataType of h:", typeof h)
 
+//Type Conversion
+
+
+
 
 // OPERATORS
 

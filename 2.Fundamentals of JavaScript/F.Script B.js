@@ -55,5 +55,24 @@ if (yourAge >= votingAge & yourAge >= contestingAge) {
     console.log(`You are neither eligible for the voting nor for contesting. Year left for eligibility for the voting is ${yearLeftV} years and for  contesting is ${yearLeftC} years.`)
 }
 
+//Practice Question: Given Mass and Height of Mark and John. Compare their BMI.
+
+const massMark = 95;
+const heightMark = 1.88;
+const massJohn = 85;
+const heightJohn = 1.76;
+
+const BMIMark = (massMark / heightMark ** 2);
+const BMIJohn = (massJohn / heightJohn ** 2);
+
+if (BMIMark > BMIJohn) {
+
+    console.log(`BMI of Mark (${BMIMark}) is greater than BMI of John (${BMIJohn})`)
+
+} else {
+
+    console.log(`BMI of John (${BMIJohn}) is greater than BMI of Mark (${BMIMark})`)
+}
+
 
 
