@@ -24,8 +24,8 @@ var f = null
 var g = Symbol
 var h = { firstName: "John", lastName: "Doe", age: 50, eyeColor: "Blue" };
 
-console.log("DataType of x:", typeof x)
-console.log("DataType of y:", typeof y)
+console.log("DataType of a:", typeof a)
+console.log("DataType of b:", typeof b)
 console.log("DataType of c:", typeof c)
 console.log("DataType of d:", typeof d)
 console.log("DataType of e:", typeof e)
@@ -35,6 +35,23 @@ console.log("DataType of h:", typeof h)
 
 //Type Conversion
 
+//Type Coercion
+
+const a = 20;
+const b = "30";
+
+const z = a + b;
+console.log(typeof(a))
+console.log(typeof(b))
+console.log(typeof(z))
+
+
+
+const a = Number("30");
+const b = String(30);
+const d = Boolean("false")
+
+console.log(typeof(d))
 
 
 
