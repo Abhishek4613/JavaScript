@@ -22,7 +22,7 @@ if (yourAge >= votingAge) {
 
     console.log(`You are eligible for driving licence.`)
 
-}  else {
+} else {
 
     const yearLeft = votingAge - yourAge
 
@@ -79,12 +79,11 @@ if (BMIMark > BMIJohn) {
 const money = 0;
 
 if (money) {
-    
+
     console.log("Spend Money Wisely.")
 
-}else {
+} else {
 
     console.log("Strart Earning Money.")
-    
-}
 
+}
