@@ -96,25 +96,11 @@ There are two types of DataType in JavaScript
 
 
 
-## JavaScript Type Conversion and Type Coercion
+## JavaScript Type Coercion and Type Casting
 
-**Type Conversion**: Type conversion (or typecasting) means transfer of data from one data type to another. Implicit conversion happens when the compiler (for compiled languages) or runtime (for interpreted language) automatically converts data types. 
+**Type Coercion**: Implicit type conversion, also known as type coercion, occurs when the programming language automatically converts one type of data to another type. This happens when the data type of one operand in an expression is different from the data type of the other operand. 
 
-There are two type of type conversion:
-
-1. **Implicit Conversion**: In certain situations, JavaScript automatically converts one data type to another (to the right type). This is known as implicit conversion.
-2. **Explicit Conversion**: We can also convert one data type to another as per your needs using built in methods. This is known as explicit conversion.
-
-**Explict Conversion**
-
-- Converting Strings to Numbers
-- Converting Numbers to Strings
-- Converting Dates to Numbers
-- Converting Numbers to Dates
-- Converting Booleans to Numbers
-- Converting Numbers to Booleans
-- Converting Booleans to Strings
-- Converting Strigns to Booleans
+**Type Casting**: Explicit type conversion, also known as type casting, occurs when the programmer explicitly converts one type of data to another type. This is done using a type cast operator, such as Number(), String(), Boolean() etc.
 
 
 ## JavaScript Operators
