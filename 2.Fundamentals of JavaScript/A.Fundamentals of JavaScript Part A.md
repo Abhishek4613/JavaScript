@@ -148,7 +148,7 @@ There are two types of DataType in JavaScript
 | Operators | Description | Example | 
 | :---: | :---: | :---: |
 | && | 	Logical AND | (10==20 && 20==33) = false |
-| \|\| | Logical OR | (10==20 || 20==33) = false |
+| \|\| | Logical OR | (10==20 \|\| 20==33) = false |
 | ! | Logical Not | !(10==20) = true |
 
 
