@@ -103,6 +103,22 @@ There are two types of DataType in JavaScript
 **Type Casting**: Explicit type conversion, also known as type casting, occurs when the programmer explicitly converts one type of data to another type. This is done using a type cast operator, such as Number(), String(), Boolean() etc.
 
 
+## JavaScript Falsy and Truly Values
+
+Falsy values are those that evaluate to false when treated as a Boolean, and truthy values are those that evaluate to true when treated as a Boolean.
+
+In JavaScript, the following values are considered falsy:
+
+false
+null
+undefined
+0
+NaN
+'' (An Empty String)
+
+All other values in JavaScript are considered truthy.
+
+
 ## JavaScript Operators
 
 ### A. JavaScript Arithmatic Operators

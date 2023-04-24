@@ -74,5 +74,17 @@ if (BMIMark > BMIJohn) {
     console.log(`BMI of John (${BMIJohn}) is greater than BMI of Mark (${BMIMark})`)
 }
 
+// Example of Falsy Values
 
+const money = 0;
+
+if (money) {
+    
+    console.log("Spend Money Wisely.")
+
+}else {
+
+    console.log("Strart Earning Money.")
+    
+}
 

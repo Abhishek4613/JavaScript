@@ -37,23 +37,24 @@ console.log("DataType of h:", typeof h)
 
 //Type Coercion
 
-const a = 20;
-const b = "30";
+var a = 20;
+var b = "30";
 
-const z = a + b;
+var z = a + b;
+
 console.log(typeof(a))
 console.log(typeof(b))
 console.log(typeof(z))
 
-
+// Type Casting
 
 const a = Number("30");
 const b = String(30);
-const d = Boolean("false")
+const c = Boolean("false")
 
-console.log(typeof(d))
-
-
+console.log(typeof(a))
+console.log(typeof(b))
+console.log(typeof(c))
 
 // OPERATORS
 
