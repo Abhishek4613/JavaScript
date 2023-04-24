@@ -107,14 +107,14 @@ There are two type of type conversion:
 
 **Explict Conversion**
 
-    Converting Strings to Numbers
-    Converting Numbers to Strings
-    Converting Dates to Numbers
-    Converting Numbers to Dates
-    Converting Booleans to Numbers
-    Converting Numbers to Booleans
-    Converting Booleans to Strings
-    Converting Strigns to Booleans
+Converting Strings to Numbers
+Converting Numbers to Strings
+Converting Dates to Numbers
+Converting Numbers to Dates
+Converting Booleans to Numbers
+Converting Numbers to Booleans
+Converting Booleans to Strings
+Converting Strigns to Booleans
 
 
 ## JavaScript Operators
