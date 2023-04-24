@@ -132,33 +132,33 @@ There are two type of type conversion:
 | Operators | Description | Example | 
 | :---: | :---: | :---: |
 | == | Is Equal To | 10 == 10; True |
-| === | Identical (Equal and of Same Type) | 20===20 = True|
-| != | Not Equal To | 	10!=20 = true |
-| !== | Not Identical | 20!==20 = false |
+| === | Identical (Equal and of Same Type) | 20 === 20 = True|
+| != | Not Equal To | 	10 != 20 = true |
+| !== | Not Identical | 20 !== 20 = false |
 | >  | Greater Than | 20>10 = true |
-| >= | Greater Than or Equal To | 20>=10 = true |
-| < | Less Than | 20<10 = false |
-| <= | Less Than or Equal To | 20<=10 = false |
+| >= | Greater Than or Equal To | 20 >= 10 = true |
+| < | Less Than | 20 < 10 = false |
+| <= | Less Than or Equal To | 20 <= 10 = false |
 
 ### C. JavaScript Bitwise Operators
 
 | Operators | Description | Example | 
 | :---: | :---: | :---: |
-| & | Bitwise AND | (10==20 & 20==33) = false |
-| \| |Bitwise OR | (10==20  20==33) = false |
-| ^ | Bitwise XOR | (10==20 ^ 20==33) = false  |
+| & | Bitwise AND | (10 == 20 & 20 == 33) = false |
+| \| |Bitwise OR | (10 == 20  20 == 33) = false |
+| ^ | Bitwise XOR | (10 == 20 ^ 20 == 33) = false  |
 | ~ | Bitwise NOT | (~10) = -10 |
-| << | Bitwise Left Shift | (10<<2) = 40 |
-| >> | Bitwise Right Shift | (10>>2) = 2 |
-| >>> | Bitwise Right Shift with Zero| (10>>>2) = 2 |
+| << | Bitwise Left Shift | (10 << 2) = 40 |
+| >> | Bitwise Right Shift | (10 >> 2) = 2 |
+| >>> | Bitwise Right Shift with Zero| (10 >>> 2) = 2 |
 
 ### D. JavaScript Logical Operators
 
 | Operators | Description | Example | 
 | :---: | :---: | :---: |
-| && | 	Logical AND | (10==20 && 20==33) = false |
-| \|\| | Logical OR | (10==20 \|\| 20==33) = false |
-| ! | Logical Not | !(10==20) = true |
+| && | 	Logical AND | (10 == 20 && 20 == 33) = false |
+| \|\| | Logical OR | (10 == 20 \|\| 20 == 33) = false |
+| ! | Logical Not | !(10 == 20) = true |
 
 ### E. JavaScript Assignment Operators
 
