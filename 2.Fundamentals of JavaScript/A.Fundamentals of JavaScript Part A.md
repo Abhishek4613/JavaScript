@@ -163,9 +163,9 @@ All other values in JavaScript are considered truthy.
 
 | Operators | Description | Example | 
 | :---: | :---: | :---: |
-| && | 	Logical AND | (10 == 20 && 20 == 33) = false |
-| \|\| | Logical OR | (10 == 20 \|\| 20 == 33) = false |
-| ! | Logical Not | !(10 == 20) = true |
+| && | 	Logical AND Returns 1 if both comparisons are true| (10 == 20 && 20 == 33) = false |
+| \|\| | Logical OR Returns 1 if at least one comparison is true| (10 == 20 \|\| 20 == 33) = false |
+| ! | Logical Not Returns 1 if only one comparison but not both is true| !(10 == 20) = true |
 
 ### E. JavaScript Assignment Operators
 
@@ -256,7 +256,6 @@ The only difference is that the second parameter specifies the length of the ext
 
 
 ## JavaScript Template Literals
-
 
 - **Quotes Inside Strings**: With template literals, we can use both single and double quotes inside a string.
 

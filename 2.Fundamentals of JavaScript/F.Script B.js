@@ -87,3 +87,33 @@ if (money) {
     console.log("Strart Earning Money.")
 
 }
+
+
+//The switch Statement 
+
+var day = "Thursday"
+
+switch (day) {
+    case "Sunday":
+      console.log("HTML and CSS Training")
+      break;
+    case  "Monday":
+      console.log("JAvaScript Training")
+      break;
+    case "Tuesday":
+      console.log("Python Training")
+      break;
+    case "Wednesday":
+      console.log("SQL Training")
+      break;
+    case "Thursday":
+      console.log("Frappe Training - Introduction")
+      break;
+    case "Friday":
+      console.log("Frappe Training - DocType")
+      break;
+    case "Saturday":
+    
+    default:
+        console.log("Not a Valid Input.")
+  }
