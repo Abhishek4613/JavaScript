@@ -94,9 +94,6 @@ if (money) {
 var day = "Thursday"
 
 switch (day) {
-    case "Sunday":
-      console.log("HTML and CSS Training")
-      break;
     case  "Monday":
       console.log("JAvaScript Training")
       break;
@@ -113,7 +110,9 @@ switch (day) {
       console.log("Frappe Training - DocType")
       break;
     case "Saturday":
-    
+      console.log("Holiday")
+    case "Sunday":
+      console.log("Holiday")
     default:
         console.log("Not a Valid Input.")
   }
