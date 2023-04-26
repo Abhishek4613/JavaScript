@@ -12,7 +12,7 @@ if (yourAge >= votingAge) {
 }
 
 
-// if-else Statement
+// if - else Statement
 
 const votingAge = 18;
 
@@ -29,7 +29,7 @@ if (yourAge >= votingAge) {
     console.log(`You are not eligible for voting. Year left for eligibility is ${yearLeft} years.`)
 }
 
-// if-else if-else Statement
+// if - else if - else Statement
 
 const votingAge = 18;
 
@@ -107,7 +107,7 @@ switch (day) {
       console.log("Frappe Training - Introduction")
       break;
     case "Friday":
-      console.log("Frappe Training - DocType")
+      console.log("Frappe Training - Introduction")
       break;
     case "Saturday":
       console.log("Holiday")
@@ -116,3 +116,4 @@ switch (day) {
     default:
         console.log("Not a Valid Input.")
   }
+
