@@ -117,3 +117,20 @@ switch (day) {
         console.log("Not a Valid Input.")
   }
 
+//Conditional(Ternary) Operator 
+
+var age = 23;
+
+age >=18 ? console.log("I love to drink Wine."):
+console.log("I love to drink Pineapple Juice.")
+
+
+var age = 17;
+
+var drinks = age>= 18 ? "Drink Allowed: Juice or Wine": "Drinks Allowed: Only Juice";
+console.log(drinks);
+
+
+var age = 19;
+
+console.log(`Drinks Allowed: ${age>=18 ? "Juice or Wine": "Only Juice"}`);
