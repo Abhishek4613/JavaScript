@@ -68,3 +68,26 @@ switch(expression) {
 }
 ```
 
+**The break Keyword**: When JavaScript reaches a break keyword, it breaks out of the switch block. This will stop the execution inside the switch block.
+
+**The default Keyword**: The default keyword specifies the code to run if there is no case match.
+
+**Note**: Switch cases use strict comparison (===). The values must be of the same type to match.
+
+**Expression and Statement**
+
+An expression is a combination of values, variables, and operators that can be evaluated to produce a single value. Expressions can be used in various contexts such as assigning values to variables, passing arguments to functions, or as operands in mathematical or logical operations. e.g. 2 + 5 or x*y
+
+A statement is a complete instruction that performs some action or controls the flow of a program. Statements can be simple or compound, and they are used to create blocks of code that perform specific tasks. e.g. x = "New Delhi" or z = 2**3
+
+### The JavaScript Conditional(Ternary) Operator 
+
+The JavaScript conditional operator, also known as the ternary operator, is a shorthand way of writing an if-else statement. It is represented by the ? and : symbols and takes the following form:
+
+```
+(condition) ? trueExpression : falseExpression;
+```
+
+Here, the condition is evaluated first. If it is true, the trueExpression is executed otherwise, the falseExpression is executed.
+
+
