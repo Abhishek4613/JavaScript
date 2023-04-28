@@ -24,8 +24,8 @@ var f = null
 var g = Symbol
 var h = { firstName: "John", lastName: "Doe", age: 50, eyeColor: "Blue" };
 
-console.log("DataType of x:", typeof x)
-console.log("DataType of y:", typeof y)
+console.log("DataType of a:", typeof a)
+console.log("DataType of b:", typeof b)
 console.log("DataType of c:", typeof c)
 console.log("DataType of d:", typeof d)
 console.log("DataType of e:", typeof e)
@@ -33,6 +33,28 @@ console.log("DataType of f:", typeof f)
 console.log("DataType of g:", typeof g)
 console.log("DataType of h:", typeof h)
 
+//Type Conversion
+
+//Type Coercion
+
+var a = 20;
+var b = "30";
+
+var z = a + b;
+
+console.log(typeof (a))
+console.log(typeof (b))
+console.log(typeof (z))
+
+// Type Casting
+
+const a = Number("30");
+const b = String(30);
+const c = Boolean("false")
+
+console.log(typeof (a))
+console.log(typeof (b))
+console.log(typeof (c))
 
 // OPERATORS
 
@@ -126,6 +148,43 @@ console.log(y < x);
 var x = 39;
 var y = 41;
 console.log(x <= y);
+
+// Logical Operators
+
+//1. AND &&
+
+var a = 20;
+var b = 25;
+var c = 20;
+var d = 25;
+
+console.log(a == c && b == d)
+console.log(a == c && b == c)
+console.log(a == b && b == d)
+console.log(a == b && c == d)
+
+//2. OR ||
+
+var a = 20;
+var b = 25;
+var c = 20;
+var d = 25;
+
+console.log(a == c || b == d)
+console.log(a == c || b == c)
+console.log(a == b || b == d)
+console.log(a == b || c == d)
+
+//3. NOT
+
+var a = 20;
+var b = 25;
+var c = 20;
+var d = 25;
+
+console.log(!a == c)
+console.log(!a == b)
+
 
 
 //Practice Question: Given Mass and Height of Mark and John. Compare their BMI.

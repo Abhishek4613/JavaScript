@@ -95,10 +95,33 @@ There are two types of DataType in JavaScript
 **Note:** JavaScript has Dynamic Typing. We do not have to manually define the datatype of the value stored in a variable. Insted datatype are determined autometically at run time.
 
 
+
+## JavaScript Type Coercion and Type Casting
+
+**Type Coercion**: Implicit type conversion, also known as type coercion, occurs when the programming language automatically converts one type of data to another type. This happens when the data type of one operand in an expression is different from the data type of the other operand. 
+
+**Type Casting**: Explicit type conversion, also known as type casting, occurs when the programmer explicitly converts one type of data to another type. This is done using a type cast operator, such as Number(), String(), Boolean() etc.
+
+
+## JavaScript Falsy and Truthly Values
+
+Falsy values are those that evaluate to false when treated as a Boolean, and truthy values are those that evaluate to true when treated as a Boolean.
+
+In JavaScript, the following values are considered falsy:
+
+false
+null
+undefined
+0
+NaN
+'' (An Empty String)
+
+All other values in JavaScript are considered truthy.
+
+
 ## JavaScript Operators
 
 ### A. JavaScript Arithmatic Operators
-
 
 | Operators | Description | Example | 
 | :---: | :---: | :---: | 
@@ -111,47 +134,38 @@ There are two types of DataType in JavaScript
 | ++ | Incriment | let a = 5; a++; Now a = 6 | 
 | -- | Decrement | let a = 5; a--; Now a = 4 | 
 
-
-
 ### B. JavaScript Comparison Operators
-
 
 | Operators | Description | Example | 
 | :---: | :---: | :---: |
 | == | Is Equal To | 10 == 10; True |
-| === | Identical (Equal and of Same Type) | 20===20 = True|
-| != | Not Equal To | 	10!=20 = true |
-| !== | Not Identical | 20!==20 = false |
+| === | Identical (Equal and of Same Type) | 20 === 20 = True|
+| != | Not Equal To | 	10 != 20 = true |
+| !== | Not Identical | 20 !== 20 = false |
 | >  | Greater Than | 20>10 = true |
-| >= | Greater Than or Equal To | 20>=10 = true |
-| < | Less Than | 20<10 = false |
-| <= | Less Than or Equal To | 20<=10 = false |
-
-
+| >= | Greater Than or Equal To | 20 >= 10 = true |
+| < | Less Than | 20 < 10 = false |
+| <= | Less Than or Equal To | 20 <= 10 = false |
 
 ### C. JavaScript Bitwise Operators
 
 | Operators | Description | Example | 
 | :---: | :---: | :---: |
-| & | Bitwise AND | (10==20 & 20==33) = false |
-| \| |Bitwise OR | (10==20  20==33) = false |
-| ^ | Bitwise XOR | (10==20 ^ 20==33) = false  |
+| & | Bitwise AND | (10 == 20 & 20 == 33) = false |
+| \| |Bitwise OR | (10 == 20  20 == 33) = false |
+| ^ | Bitwise XOR | (10 == 20 ^ 20 == 33) = false  |
 | ~ | Bitwise NOT | (~10) = -10 |
-| << | Bitwise Left Shift | (10<<2) = 40 |
-| >> | Bitwise Right Shift | (10>>2) = 2 |
-| >>> | Bitwise Right Shift with Zero| (10>>>2) = 2 |
-
-
+| << | Bitwise Left Shift | (10 << 2) = 40 |
+| >> | Bitwise Right Shift | (10 >> 2) = 2 |
+| >>> | Bitwise Right Shift with Zero| (10 >>> 2) = 2 |
 
 ### D. JavaScript Logical Operators
 
 | Operators | Description | Example | 
 | :---: | :---: | :---: |
-| && | 	Logical AND | (10==20 && 20==33) = false |
-| \|\| | Logical OR | (10==20 || 20==33) = false |
-| ! | Logical Not | !(10==20) = true |
-
-
+| && | 	Logical AND Returns 1 if both comparisons are true| (10 == 20 && 20 == 33) = false |
+| \|\| | Logical OR Returns 1 if at least one comparison is true| (10 == 20 \|\| 20 == 33) = false |
+| ! | Logical Not Returns 1 if only one comparison but not both is true| !(10 == 20) = true |
 
 ### E. JavaScript Assignment Operators
 
@@ -163,8 +177,6 @@ There are two types of DataType in JavaScript
 | *= | Multiply and Assign |  var a=10; a*=20; Now a = 200 |
 | /= | Divide and Assign | var a=10; a/=2; Now a = 5 |
 | %= | Modulus and Assign | var a=10; a%=2; Now a = 0 |
-
-
 
 ### F. JavaScript Special Operators
 
@@ -180,10 +192,7 @@ There are two types of DataType in JavaScript
 | void | It discards the expression's return value.|
 | yield | Checks what is returned in a generator by the generator's iterator.|
 
-
-
 ## JavaScript - String Methods
-
 
 - **length**: Returns the length of any string.
 
@@ -229,13 +238,11 @@ The only difference is that the second parameter specifies the length of the ext
 
 - **split()**: This method is used to split a string into an array of substrings based on a specified separator.
 
-- **indexOf()**: Returns the index (position) of the first occurrence of a specified text in a string.
+- **indexOf()**: Returns the index (position) of the first occurrence of a specified text in a string. It does not support regular repression.
 
 - **lastIndexOf()**: Returns the index (position) of the last occurrence of a specified text in a string
 
 - **search()**: Searches a string for a string  or a regular expression and returns the position of the match.
-
-   indexOf() method does not support regular repression.
 
 - **match()**: Returns an array containing the results of matching a string against a string or a regular expression.
 
@@ -249,7 +256,6 @@ The only difference is that the second parameter specifies the length of the ext
 
 
 ## JavaScript Template Literals
-
 
 - **Quotes Inside Strings**: With template literals, we can use both single and double quotes inside a string.
 
