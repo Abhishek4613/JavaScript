@@ -88,47 +88,7 @@ if (money) {
 
 }
 
-
-//The switch Statement 
-
-var day = "Thursday"
-
-switch (day) {
-    case  "Monday":
-      console.log("JAvaScript Training")
-      break;
-    case "Tuesday":
-      console.log("Python Training")
-      break;
-    case "Wednesday":
-      console.log("SQL Training")
-      break;
-    case "Thursday":
-      console.log("Frappe Training - Introduction")
-      break;
-    case "Friday":
-      console.log("Frappe Training - Introduction")
-      break;
-    case "Saturday":
-      console.log("Holiday")
-    case "Sunday":
-      console.log("Holiday")
-    default:
-        console.log("Not a Valid Input.")
-  }
-
-//Conditional(Ternary) Operator 
-
-var age = 23;
-
-age >=18 ? console.log("I love to drink Wine."):
-console.log("I love to drink Pineapple Juice.")
-
-
-var age = 17;
-
-var drinks = age>= 18 ? "Drink Allowed: Juice or Wine": "Drinks Allowed: Only Juice";
-console.log(drinks);
+// if-else if-else Statement
 
 
 var age = 19;
