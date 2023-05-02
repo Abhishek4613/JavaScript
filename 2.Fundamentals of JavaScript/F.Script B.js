@@ -84,7 +84,7 @@ if (money) {
 
 } else {
 
-    console.log("Strart Earning Money.")
+    console.log("Start Earning Money.")
 
 }
 
@@ -134,3 +134,21 @@ console.log(drinks);
 var age = 19;
 
 console.log(`Drinks Allowed: ${age>=18 ? "Juice or Wine": "Only Juice"}`);
+
+
+//  Iterative Statement
+
+// Functions
+
+function fruitProcessor(noApples,noOrange){
+
+  const juice = `Juice with ${noApples} apples and ${noOrange} oranges.`;
+  return juice;
+
+}
+
+const appleJuice = fruitProcessor(2,0);
+console.log("Apple Juice:",appleJuice);
+
+
+console.log("Mix Juice:",fruitProcessor(1,3))

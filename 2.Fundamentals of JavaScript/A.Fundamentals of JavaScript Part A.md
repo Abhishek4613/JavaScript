@@ -50,7 +50,7 @@ Variables are containers for storing data (storing data values).
 
 **D. Redeclare:**
 
-*The redeclaration of a variable means that you can declare the variable again.*
+*The re-declaration of a variable means that you can declare the variable again.*
 
 - var: Allowed
 - let: Not Allowed
@@ -71,10 +71,10 @@ The general rules for constructing names for variables (unique identifiers) are:
 ## JavaScript DataType
 
 There are two types of DataType in JavaScript
-1. Premitive DataType
-2. Non-Premitive (Refrential) DataType
+1. Primitive DataType
+2. Non-Primitive (Referential) DataType
 
-**Types of Premitive DataType**
+**Types of Primitive DataType**
 
 1. String
 2. Number
@@ -84,7 +84,7 @@ There are two types of DataType in JavaScript
 6. Null
 7. Symbol (*Not Useful Now)
 
-**Types of Non-Premitive DataType**
+**Types of Non-Primitive DataType**
 
 1. Object 
 
@@ -92,7 +92,7 @@ There are two types of DataType in JavaScript
 
 **Note:** In JavaScript, null is considered to be an empty object reference. So, when you use the typeof operator with null, it will return "object". 
 
-**Note:** JavaScript has Dynamic Typing. We do not have to manually define the datatype of the value stored in a variable. Insted datatype are determined autometically at run time.
+**Note:** JavaScript has Dynamic Typing. We do not have to manually define the datatype of the value stored in a variable. Instead datatype are determined automatically at run time.
 
 
 
@@ -121,17 +121,17 @@ All other values in JavaScript are considered truthy.
 
 ## JavaScript Operators
 
-### A. JavaScript Arithmatic Operators
+### A. JavaScript Arithmetic Operators
 
 | Operators | Description | Example | 
 | :---: | :---: | :---: | 
 | + | Addition | 10 + 10 = 20 | 
-| - | Substraction | 35 - 15 = 20 | 
+| - | Subtraction | 35 - 15 = 20 | 
 | * | Multiplication | 12 * 2 = 24 | 
 | ** | Exponent | 4**3 = 64 |
 | / | Division | 48 / 3 = 16 | 
 | % | Modulus | 52 % 10 = 2 | 
-| ++ | Incriment | let a = 5; a++; Now a = 6 | 
+| ++ | Increment | let a = 5; a++; Now a = 6 | 
 | -- | Decrement | let a = 5; a--; Now a = 4 | 
 
 ### B. JavaScript Comparison Operators
@@ -261,7 +261,7 @@ The only difference is that the second parameter specifies the length of the ext
 
 - **Multiline Strings**: Template literals allows multiline strings.
 
-- **Interpolation**: With template literals we can easely interpolate variables and expressions into strings.
+- **Interpolation**: With template literals we can easily interpolate variables and expressions into strings.
 
 - **Expression Substitution**: Template literals allow expressions in strings.
 

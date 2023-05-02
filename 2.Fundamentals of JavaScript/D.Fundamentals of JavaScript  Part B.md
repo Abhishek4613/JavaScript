@@ -91,3 +91,11 @@ The JavaScript conditional operator, also known as the ternary operator, is a sh
 Here, the condition is evaluated first. If it is true, the trueExpression is executed otherwise, the falseExpression is executed.
 
 
+## JavaScript  Iterative Statement
+
+
+
+
+## JavaScript Functions
+
+JavaScript functions are a way to group a block of code that performs a specific task, which can be called or executed whenever needed. Functions can accept parameters as inputs, and can return values as outputs.
