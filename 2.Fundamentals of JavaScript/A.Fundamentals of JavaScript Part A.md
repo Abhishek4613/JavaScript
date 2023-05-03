@@ -22,7 +22,7 @@ Variables are containers for storing data (storing data values).
 3. const
 
 
-**Difference Between Them Based on Scope, Hosting, Reaasign, and Redeclaretion** 
+**Difference Between Them Based on Scope, Hosting, Reassign, and  Re-declaration** 
 
 **A. Scope**: 
 

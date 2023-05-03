@@ -111,4 +111,22 @@ const appleJuice = fruitProcessor(2,0);
 console.log("Apple Juice:",appleJuice);
 
 
-console.log("Mix Juice:",fruitProcessor(1,3))
+console.log("Mix Juice:",fruitProcessor(1,3));
+
+//Function Declaration 
+
+function ageCalculator(birthYear){
+  return 2030-birthYear
+}
+
+const age1 = ageCalculator(1997)
+console.log(`My Age by 2030: ${age1} years.`)
+
+//Function Expression
+
+const calculateAge = function(birthYear){
+  return 2035-birthYear
+}
+
+const age2 = calculateAge(1997)
+console.log((`My Age by 2035: ${age1} years.`))

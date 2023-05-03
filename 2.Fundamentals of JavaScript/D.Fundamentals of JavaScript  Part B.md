@@ -99,3 +99,32 @@ Here, the condition is evaluated first. If it is true, the trueExpression is exe
 ## JavaScript Functions
 
 JavaScript functions are a way to group a block of code that performs a specific task, which can be called or executed whenever needed. Functions can accept parameters as inputs, and can return values as outputs.
+
+### Function Declaration and Function Expression
+
+In JavaScript, there are two ways to define functions: function declarations and function expressions.
+
+
+**Function Declaration**
+
+Function declaration is a way of defining a function using the function keyword followed by the function name, parameter list, and function body.
+
+```
+function functionName(parameters) {
+  // function body
+}
+```
+
+**Function Expression**
+
+Function expression is another way of defining a function by assigning it to a variable. In a function expression, the function keyword is used to define an anonymous function, which is then assigned to a variable.
+
+```
+const functionName = function(parameters) {
+  // function body
+};
+```
+
+The main difference between function declarations and function expressions is that function declarations are hoisted to the top of their scope, whereas function expressions are not. This means that function declarations can be called before they are defined, whereas function expressions must be defined before they are called.
+
+In general, both function declarations and function expressions are widely used in JavaScript programming, and their usage depends on the specific use case and personal preference.
