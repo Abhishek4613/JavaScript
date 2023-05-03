@@ -113,14 +113,16 @@ console.log("Apple Juice:",appleJuice);
 
 console.log("Mix Juice:",fruitProcessor(1,3));
 
+
 //Function Declaration 
+
+const age1 = ageCalculator(1997)
+console.log(`My Age by 2030: ${age1} years.`)
 
 function ageCalculator(birthYear){
   return 2030-birthYear
 }
 
-const age1 = ageCalculator(1997)
-console.log(`My Age by 2030: ${age1} years.`)
 
 //Function Expression
 

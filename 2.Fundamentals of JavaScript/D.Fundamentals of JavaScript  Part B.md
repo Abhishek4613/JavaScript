@@ -127,4 +127,4 @@ const functionName = function(parameters) {
 
 The main difference between function declarations and function expressions is that function declarations are hoisted to the top of their scope, whereas function expressions are not. This means that function declarations can be called before they are defined, whereas function expressions must be defined before they are called.
 
-In general, both function declarations and function expressions are widely used in JavaScript programming, and their usage depends on the specific use case and personal preference.
+
