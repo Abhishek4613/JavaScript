@@ -84,6 +84,8 @@ A statement is a complete instruction that performs some action or controls the 
 
 The JavaScript conditional operator, also known as the ternary operator, is a shorthand way of writing an if-else statement. It is represented by the ? and : symbols and takes the following form:
 
+**Syntax**
+
 ```
 (condition) ? trueExpression : falseExpression;
 ```
@@ -109,6 +111,8 @@ In JavaScript, there are two ways to define functions: function declarations and
 
 Function declaration is a way of defining a function using the function keyword followed by the function name, parameter list, and function body.
 
+**Syntax**
+
 ```
 function functionName(parameters) {
   // function body
@@ -119,6 +123,8 @@ function functionName(parameters) {
 
 Function expression is another way of defining a function by assigning it to a variable. In a function expression, the function keyword is used to define an anonymous function, which is then assigned to a variable.
 
+**Syntax**
+
 ```
 const functionName = function(parameters) {
   // function body
@@ -127,4 +133,18 @@ const functionName = function(parameters) {
 
 The main difference between function declarations and function expressions is that function declarations are hoisted to the top of their scope, whereas function expressions are not. This means that function declarations can be called before they are defined, whereas function expressions must be defined before they are called.
 
+**Arrow Functions**
 
+An arrow function is a shorthand way of writing a function in JavaScript. It is an alternative syntax to traditional function declarations.
+
+**Syntax**
+
+```
+(parameters) => { statement }
+
+or 
+
+(parameters) => expression
+```
+
+One of the key differences between arrow functions and traditional functions is that arrow functions don't have their own this value. Instead, they inherit this from the surrounding lexical scope. This can be useful in certain situations, such as when using callbacks or working with object methods. We will stydy "this" keyword later.
