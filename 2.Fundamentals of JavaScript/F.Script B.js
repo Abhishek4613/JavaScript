@@ -29,6 +29,7 @@ if (yourAge >= votingAge) {
     console.log(`You are not eligible for voting. Year left for eligibility is ${yearLeft} years.`)
 }
 
+
 // if - else if - else Statement
 
 const votingAge = 18;
@@ -55,6 +56,7 @@ if (yourAge >= votingAge & yourAge >= contestingAge) {
     console.log(`You are neither eligible for the voting nor for contesting. Year left for eligibility for the voting is ${yearLeftV} years and for  contesting is ${yearLeftC} years.`)
 }
 
+
 //Practice Question: Given Mass and Height of Mark and John. Compare their BMI.
 
 const massMark = 95;
@@ -74,6 +76,7 @@ if (BMIMark > BMIJohn) {
     console.log(`BMI of John (${BMIJohn}) is greater than BMI of Mark (${BMIMark})`)
 }
 
+
 // Example of Falsy Values
 
 const money = 0;
@@ -87,6 +90,7 @@ if (money) {
     console.log("Start Earning Money.")
 
 }
+
 
 // Conditional(Ternary) Operator 
 
