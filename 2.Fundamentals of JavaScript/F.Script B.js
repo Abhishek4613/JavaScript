@@ -88,8 +88,7 @@ if (money) {
 
 }
 
-// if-else if-else Statement
-
+// Conditional(Ternary) Operator 
 
 var age = 19;
 
@@ -104,12 +103,10 @@ function fruitProcessor(noApples,noOrange){
 
   const juice = `Juice with ${noApples} apples and ${noOrange} oranges.`;
   return juice;
-
 }
 
 const appleJuice = fruitProcessor(2,0);
 console.log("Apple Juice:",appleJuice);
-
 
 console.log("Mix Juice:",fruitProcessor(1,3));
 
