@@ -90,7 +90,7 @@ The JavaScript conditional operator, also known as the ternary operator, is a sh
 (condition) ? trueExpression : falseExpression;
 ```
 
-Here, the condition is evaluated first. If it is true, the trueExpression is executed otherwise, the falseExpression is executed.
+Here, the condition is evaluated first. If it is true, the trueExpression is executed otherwise, the false Expression is executed.
 
 
 ## JavaScript  Iterative Statement
