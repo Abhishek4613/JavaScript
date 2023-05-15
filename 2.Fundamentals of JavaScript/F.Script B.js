@@ -133,3 +133,8 @@ const calculateAge = function(birthYear){
 
 const age2 = calculateAge(1997)
 console.log((`My Age by 2035: ${age1} years.`))
+
+
+//Arrow Function
+
+
