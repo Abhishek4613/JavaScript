@@ -140,3 +140,14 @@ console.log(`My Age by 2035 will be: ${age2} years.`)
 const findAge = birtYear => 2035 - birtYear
 const age3 = findAge(1997)
 console.log (`My Age by 2035 will be: ${age3} years.`)
+
+
+//Practice Question: Create a function to find the remaining age in retirement.
+
+const yearUntilRetirement = birthYear => {
+    const age = 2023 - birthYear
+    const retirement = 65 - age
+    return retirement;
+}
+
+console.log(yearUntilRetirement(1993))
