@@ -117,11 +117,11 @@ console.log("Mix Juice:",fruitProcessor(1,3));
 
 //Function Declaration 
 
-const age1 = ageCalculator(1997)
-console.log(`My Age by 2030: ${age1} years.`)
+const age1 = evaluateAge(1997)
+console.log(`My Age by 2035 will be: ${age1} years.`)
 
-function ageCalculator(birthYear){
-  return 2030-birthYear
+function evaluateAge(birthYear){
+  return 2035-birthYear
 }
 
 
@@ -132,9 +132,11 @@ const calculateAge = function(birthYear){
 }
 
 const age2 = calculateAge(1997)
-console.log((`My Age by 2035: ${age1} years.`))
+console.log(`My Age by 2035 will be: ${age2} years.`)
 
 
 //Arrow Function
 
-
+const findAge = birtYear => 2035 - birtYear
+const age3 = findAge(1997)
+console.log (`My Age by 2035 will be: ${age3} years.`)
