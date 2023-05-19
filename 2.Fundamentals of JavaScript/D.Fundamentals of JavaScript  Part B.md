@@ -149,7 +149,7 @@ or
 
 One of the key differences between arrow functions and traditional functions is that arrow functions don't have their own this value. Instead, they inherit this from the surrounding lexical scope. This can be useful in certain situations, such as when using callbacks or working with object methods. We will stydy "this" keyword later.
 
-**Function Calling Functio**
+**Function Calling Function**
 
 In JavaScript, functions are first-class citizens, which means they can be assigned to variables, passed as arguments to other functions, and even returned from functions. This flexibility allows you to call one function from within another function.
 

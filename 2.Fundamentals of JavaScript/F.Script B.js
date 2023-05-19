@@ -152,3 +152,65 @@ console.log(`Years remaining for Retirement: ${yearUntilRetirement(1993,2023)} y
 
 
 //Function Calling Function
+
+function multiply(a,b) {
+    return a*b;
+  }
+  
+  function add(a,b) {
+    return a+b;
+  }
+  
+  function subtract(a,b) {
+    return a-b;
+  }
+
+  function division(a,b){
+    return a/b;
+  }
+  
+  function calculate(a, b, operation) {
+    console.log(`Performing ${operation} on ${a} and ${b}...`);
+    
+    let result;
+    if (operation === "multiply") {
+      result = multiply(a,b);
+    } else if (operation === "add") {
+      result = add(a,b);
+    } else if (operation === "subtract") {
+      result = subtract(a,b);
+    } else if (operation === "division"){
+      result = division(a,b)
+    } else {
+      console.log("Invalid operation");
+      return;
+    }
+    
+    console.log(`Result: ${result}`);
+  }
+  
+  calculate(5,3, "multiply");
+  calculate(10,7, "add");
+  calculate(8,2, "subtract");
+  calculate(18,3, "division");
+  
+
+//Practice Question: Find the winner team, if that teams average score in three matches is more than double of the average score of other team, else match is drawn.
+
+const avgScore = (a,b,c) => (a+b+c/3);
+
+const avgScoreIndia = avgScore(77,84,63);
+const avgScoreAustralia = avgScore(88,62,79);
+
+const checkWinner = function(avgScoreIndia,avgScoreAustralia){
+
+    if (avgScoreIndia >= 2*avgScoreAustralia){
+        console.log(`Winner is India`)
+    } else if (avgScoreAustralia >= 2*avgScoreIndia){
+        console.log(`Winner is Australia`)
+    } else{
+        console.log(`Match Drawn`)
+    }
+}
+
+checkWinner(avgScoreIndia,avgScoreAustralia);
