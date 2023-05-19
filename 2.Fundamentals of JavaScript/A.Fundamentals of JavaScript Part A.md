@@ -7,34 +7,33 @@ The JavaScript syntax defines two types of values:
 - Fixed Values
 - Variable Values
 
-Fixed values are called Literals. 
+Fixed values are called Literals.
 
 Variable values are called Variables.
-
 
 ## JavaScript Variables
 
 Variables are containers for storing data (storing data values).
 
 **Keywords used to declare a Variable:**
+
 1. var
 2. let
 3. const
 
+**Difference Between Them Based on Scope, Hosting, Reassign, and Re-declaration**
 
-**Difference Between Them Based on Scope, Hosting, Reassign, and  Re-declaration** 
+**A. Scope**:
 
-**A. Scope**: 
-
-*Scope of a variable is the block of code in the entire program where the variable is declared, used, and can be modified.* 
+_Scope of a variable is the block of code in the entire program where the variable is declared, used, and can be modified._
 
 - Variables declared with var are in the function scope.
 - Variables declared as let are in the block scope.
 - Variables declared as const are in the block scope.
 
-**B. Hosting:** 
+**B. Hosting:**
 
-*Hoisting means that we can define a variable before its declaration.*
+_Hoisting means that we can define a variable before its declaration._
 
 - var: Allowed
 - let: Not Allowed
@@ -42,7 +41,7 @@ Variables are containers for storing data (storing data values).
 
 **C. Reassign:**
 
-*To reassign a value is to reassign the value of a variable.*
+_To reassign a value is to reassign the value of a variable._
 
 - var: Allowed
 - let: Allowed
@@ -50,12 +49,11 @@ Variables are containers for storing data (storing data values).
 
 **D. Redeclare:**
 
-*The re-declaration of a variable means that you can declare the variable again.*
+_The re-declaration of a variable means that you can declare the variable again._
 
 - var: Allowed
 - let: Not Allowed
 - const: Not Allowed
-
 
 **Rules of Constructing Variables**
 
@@ -63,14 +61,14 @@ The general rules for constructing names for variables (unique identifiers) are:
 
 1. Names can contain letters, digits, underscores, and dollar signs.
 2. Names must begin with a letter.
-3. Names can also begin with $ and _ (but try to avoid using).
+3. Names can also begin with $ and \_ (but try to avoid using).
 4. Names are case sensitive (y and Y are different variables).
 5. Reserved words (like JavaScript keywords) cannot be used as names.
-
 
 ## JavaScript DataType
 
 There are two types of DataType in JavaScript
+
 1. Primitive DataType
 2. Non-Primitive (Referential) DataType
 
@@ -82,26 +80,23 @@ There are two types of DataType in JavaScript
 4. Boolean
 5. Undefined
 6. Null
-7. Symbol (*Not Useful Now)
+7. Symbol (\*Not Useful Now)
 
 **Types of Non-Primitive DataType**
 
-1. Object 
+1. Object
 
 **The typeof() operator is used to check the DataType of a value.**
 
-**Note:** In JavaScript, null is considered to be an empty object reference. So, when you use the typeof operator with null, it will return "object". 
+**Note:** In JavaScript, null is considered to be an empty object reference. So, when you use the typeof operator with null, it will return "object".
 
 **Note:** JavaScript has Dynamic Typing. We do not have to manually define the datatype of the value stored in a variable. Instead datatype are determined automatically at run time.
 
-
-
 ## JavaScript Type Coercion and Type Casting
 
-**Type Coercion**: Implicit type conversion, also known as type coercion, occurs when the programming language automatically converts one type of data to another type. This happens when the data type of one operand in an expression is different from the data type of the other operand. 
+**Type Coercion**: Implicit type conversion, also known as type coercion, occurs when the programming language automatically converts one type of data to another type. This happens when the data type of one operand in an expression is different from the data type of the other operand.
 
 **Type Casting**: Explicit type conversion, also known as type casting, occurs when the programmer explicitly converts one type of data to another type. This is done using a type cast operator, such as Number(), String(), Boolean() etc.
-
 
 ## JavaScript Falsy and Truthly Values
 
@@ -118,107 +113,106 @@ NaN
 
 All other values in JavaScript are considered truthy.
 
-
 ## JavaScript Operators
 
 ### A. JavaScript Arithmetic Operators
 
-| Operators | Description | Example | 
-| :---: | :---: | :---: | 
-| + | Addition | 10 + 10 = 20 | 
-| - | Subtraction | 35 - 15 = 20 | 
-| * | Multiplication | 12 * 2 = 24 | 
-| ** | Exponent | 4**3 = 64 |
-| / | Division | 48 / 3 = 16 | 
-| % | Modulus | 52 % 10 = 2 | 
-| ++ | Increment | let a = 5; a++; Now a = 6 | 
-| -- | Decrement | let a = 5; a--; Now a = 4 | 
+| Operators |  Description   |          Example          |
+| :-------: | :------------: | :-----------------------: |
+|     +     |    Addition    |       10 + 10 = 20        |
+|     -     |  Subtraction   |       35 - 15 = 20        |
+|    \*     | Multiplication |       12 \* 2 = 24        |
+|   \*\*    |    Exponent    |        4\*\*3 = 64        |
+|     /     |    Division    |        48 / 3 = 16        |
+|     %     |    Modulus     |        52 % 10 = 2        |
+|    ++     |   Increment    | let a = 5; a++; Now a = 6 |
+|    --     |   Decrement    | let a = 5; a--; Now a = 4 |
 
 ### B. JavaScript Comparison Operators
 
-| Operators | Description | Example | 
-| :---: | :---: | :---: |
-| == | Is Equal To | 10 == 10; True |
-| === | Identical (Equal and of Same Type) | 20 === 20 = True|
-| != | Not Equal To | 	10 != 20 = true |
-| !== | Not Identical | 20 !== 20 = false |
-| >  | Greater Than | 20>10 = true |
-| >= | Greater Than or Equal To | 20 >= 10 = true |
-| < | Less Than | 20 < 10 = false |
-| <= | Less Than or Equal To | 20 <= 10 = false |
+| Operators |            Description             |      Example      |
+| :-------: | :--------------------------------: | :---------------: |
+|    ==     |            Is Equal To             |  10 == 10; True   |
+|    ===    | Identical (Equal and of Same Type) | 20 === 20 = True  |
+|    !=     |            Not Equal To            |  10 != 20 = true  |
+|    !==    |           Not Identical            | 20 !== 20 = false |
+|     >     |            Greater Than            |   20>10 = true    |
+|    >=     |      Greater Than or Equal To      |  20 >= 10 = true  |
+|     <     |             Less Than              |  20 < 10 = false  |
+|    <=     |       Less Than or Equal To        | 20 <= 10 = false  |
 
 ### C. JavaScript Bitwise Operators
 
-| Operators | Description | Example | 
-| :---: | :---: | :---: |
-| & | Bitwise AND | (10 == 20 & 20 == 33) = false |
-| \| |Bitwise OR | (10 == 20  20 == 33) = false |
-| ^ | Bitwise XOR | (10 == 20 ^ 20 == 33) = false  |
-| ~ | Bitwise NOT | (~10) = -10 |
-| << | Bitwise Left Shift | (10 << 2) = 40 |
-| >> | Bitwise Right Shift | (10 >> 2) = 2 |
-| >>> | Bitwise Right Shift with Zero| (10 >>> 2) = 2 |
+| Operators |          Description          |            Example            |
+| :-------: | :---------------------------: | :---------------------------: |
+|     &     |          Bitwise AND          | (10 == 20 & 20 == 33) = false |
+|    \|     |          Bitwise OR           |  (10 == 20 20 == 33) = false  |
+|     ^     |          Bitwise XOR          | (10 == 20 ^ 20 == 33) = false |
+|     ~     |          Bitwise NOT          |          (~10) = -10          |
+|    <<     |      Bitwise Left Shift       |        (10 << 2) = 40         |
+|    >>     |      Bitwise Right Shift      |         (10 >> 2) = 2         |
+|    >>>    | Bitwise Right Shift with Zero |        (10 >>> 2) = 2         |
 
 ### D. JavaScript Logical Operators
 
-| Operators | Description | Example | 
-| :---: | :---: | :---: |
-| && | 	Logical AND Returns 1 if both comparisons are true| (10 == 20 && 20 == 33) = false |
-| \|\| | Logical OR Returns 1 if at least one comparison is true| (10 == 20 \|\| 20 == 33) = false |
-| ! | Logical Not Returns 1 if only one comparison but not both is true| !(10 == 20) = true |
+| Operators |                            Description                            |             Example              |
+| :-------: | :---------------------------------------------------------------: | :------------------------------: |
+|    &&     |        Logical AND Returns 1 if both comparisons are true         |  (10 == 20 && 20 == 33) = false  |
+|   \|\|    |      Logical OR Returns 1 if at least one comparison is true      | (10 == 20 \|\| 20 == 33) = false |
+|     !     | Logical Not Returns 1 if only one comparison but not both is true |        !(10 == 20) = true        |
 
 ### E. JavaScript Assignment Operators
 
-| Operators | Description | Example | 
-| :---: | :---: | :---: |
-| = | Assign | var a = 10; Now a = 10 |
-| += | Add and Assign | var a=10; a+=20; Now a = 30 |
-| -= | Subtract and Assign | var a=20; a-=10; Now a = 10 |
-| *= | Multiply and Assign |  var a=10; a*=20; Now a = 200 |
-| /= | Divide and Assign | var a=10; a/=2; Now a = 5 |
-| %= | Modulus and Assign | var a=10; a%=2; Now a = 0 |
+| Operators |     Description     |            Example            |
+| :-------: | :-----------------: | :---------------------------: |
+|     =     |       Assign        |    var a = 10; Now a = 10     |
+|    +=     |   Add and Assign    |  var a=10; a+=20; Now a = 30  |
+|    -=     | Subtract and Assign |  var a=20; a-=10; Now a = 10  |
+|    \*=    | Multiply and Assign | var a=10; a\*=20; Now a = 200 |
+|    /=     |  Divide and Assign  |   var a=10; a/=2; Now a = 5   |
+|    %=     | Modulus and Assign  |   var a=10; a%=2; Now a = 0   |
 
 ### F. JavaScript Special Operators
 
-| Operators | Description | 
-| :---: | :---: | 
-| (?:) | 	Conditional Operator returns value based on the condition. It is like if-else. |  
-| , | Comma Operator allows multiple expressions to be evaluated as single statement.|
-| delete | Delete Operator deletes a property from the object.|
-| in | In Operator checks if object has the given property.|
-| instanceof | Checks if the object is an instance of given type.|
-| new | Creates an Instance (Object).|
-| typeof | Checks the type of object|
-| void | It discards the expression's return value.|
-| yield | Checks what is returned in a generator by the generator's iterator.|
+| Operators  |                                   Description                                   |
+| :--------: | :-----------------------------------------------------------------------------: |
+|    (?:)    | Conditional Operator returns value based on the condition. It is like if-else.  |
+|     ,      | Comma Operator allows multiple expressions to be evaluated as single statement. |
+|   delete   |               Delete Operator deletes a property from the object.               |
+|     in     |              In Operator checks if object has the given property.               |
+| instanceof |               Checks if the object is an instance of given type.                |
+|    new     |                          Creates an Instance (Object).                          |
+|   typeof   |                            Checks the type of object                            |
+|    void    |                   It discards the expression's return value.                    |
+|   yield    |       Checks what is returned in a generator by the generator's iterator.       |
 
 ## JavaScript - Introduction to String
 
-In JavaScript, a string is a sequence of characters enclosed within single quotes ('') or double quotes (""). Strings are used to represent textual data and are one of the fundamental data types in JavaScript. 
+In JavaScript, a string is a sequence of characters enclosed within single quotes ('') or double quotes (""). Strings are used to represent textual data and are one of the fundamental data types in JavaScript.
 
 ## JavaScript - String Methods
 
 - **length**: Returns the length of any string.
 
 - **slice()**: Extracts a part of a string and returns the extracted part in a new string.
-    - The method takes 2 parameters: start position, and end position (end not included).
-    - If you omit the second parameter, the method will slice out the rest of the string.
-    - If a parameter is negative, the position is counted from the end of the string.
-    
+  - The method takes 2 parameters: start position, and end position (end not included).
+  - If you omit the second parameter, the method will slice out the rest of the string.
+  - If a parameter is negative, the position is counted from the end of the string.
 - **substring()**: It is similar to the slice. The only difference is that start and end values less than 0 are treated as 0 in substring().
 
 - **substr()**: It is similar to slice().
-The only difference is that the second parameter specifies the length of the extracted part.
+  The only difference is that the second parameter specifies the length of the extracted part.
 
 - **replace()**: The replace() method replaces a specified value with another value in a string.
-    - The replace() method does not change the string it is called on.
-    - The replace() method returns a new string.
-    - The replace() method replaces only the first match.
-    - If you want to replace all matches, use a regular expression with the /g flag set.
-    - The replace() method is case sensitive.
-    - To replace case insensitive, use a regular expression with an /i flag set.       
 
-- **replaceAll()**: 
+  - The replace() method does not change the string it is called on.
+  - The replace() method returns a new string.
+  - The replace() method replaces only the first match.
+  - If you want to replace all matches, use a regular expression with the /g flag set.
+  - The replace() method is case sensitive.
+  - To replace case insensitive, use a regular expression with an /i flag set.
+
+- **replaceAll()**:
 
 - **toUpperCase()**: A string is converted to upper case with toUpperCase().
 
@@ -246,7 +240,7 @@ The only difference is that the second parameter specifies the length of the ext
 
 - **lastIndexOf()**: Returns the index (position) of the last occurrence of a specified text in a string
 
-- **search()**: Searches a string for a string  or a regular expression and returns the position of the match.
+- **search()**: Searches a string for a string or a regular expression and returns the position of the match.
 
 - **match()**: Returns an array containing the results of matching a string against a string or a regular expression.
 
@@ -257,7 +251,6 @@ The only difference is that the second parameter specifies the length of the ext
 - **startsWith()**: Returns true if a string begins with a specified value. It can take second argument as index from where we want to search begins.
 
 - **endsWith()**: Returns true if a string ends with a specified value. It can take second argument as index from where we want to search begins.
-
 
 ## JavaScript Template Literals
 
@@ -276,7 +269,7 @@ An array is a special variable, which can hold more than one value and we can ac
 ```
 const cars = ["Saab", "Volvo", "BMW"];
 ```
+
 ## JavaScript - Array Methods
 
-- **
-
+- **.length()**
