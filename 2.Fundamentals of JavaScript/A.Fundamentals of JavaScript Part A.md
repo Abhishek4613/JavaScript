@@ -192,6 +192,10 @@ All other values in JavaScript are considered truthy.
 | void | It discards the expression's return value.|
 | yield | Checks what is returned in a generator by the generator's iterator.|
 
+## JavaScript - Introduction to String
+
+In JavaScript, a string is a sequence of characters enclosed within single quotes ('') or double quotes (""). Strings are used to represent textual data and are one of the fundamental data types in JavaScript. 
+
 ## JavaScript - String Methods
 
 - **length**: Returns the length of any string.
@@ -265,8 +269,14 @@ The only difference is that the second parameter specifies the length of the ext
 
 - **Expression Substitution**: Template literals allow expressions in strings.
 
+## JavaScript - Introduction to Array
 
+An array is a special variable, which can hold more than one value and we can access the values by referring to an index number.
 
+```
+const cars = ["Saab", "Volvo", "BMW"];
+```
+## JavaScript - Array Methods
 
-
+- **
 
