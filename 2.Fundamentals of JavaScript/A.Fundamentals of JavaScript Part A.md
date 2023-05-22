@@ -21,7 +21,7 @@ Variables are containers for storing data (storing data values).
 2. let
 3. const
 
-**Difference Between Them Based on Scope, Hosting, Reassign, and Re-declaration**
+**Difference Between Them Based on Scope, Hosting, Reassign, and Re-Declaration**
 
 **A. Scope**:
 
@@ -41,19 +41,29 @@ _Hoisting means that we can define a variable before its declaration._
 
 **C. Reassign:**
 
-_To reassign a value is to reassign the value of a variable._
+_Reassigning a value means changing the value of an existing variable without creating a new variable with the same name._
 
 - var: Allowed
 - let: Allowed
 - const: Not Allowed
 
+```
+var myVariable = 5;
+myVariable = 10;
+```
+
 **D. Redeclare:**
 
-_The re-declaration of a variable means that you can declare the variable again._
+_Redeclaring a variable means declaring a new variable with the same name as an existing variable in the same scope._
 
 - var: Allowed
 - let: Not Allowed
 - const: Not Allowed
+
+```
+var myVariable = 5;
+var myVariable = 10;
+```
 
 **Rules of Constructing Variables**
 
