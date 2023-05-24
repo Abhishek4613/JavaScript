@@ -333,3 +333,5 @@ var price = 10;
 var VAT = 0.25;
 var total = `Total: ${(price * (1 + VAT)).toFixed(2)}`;
 console.log(total);
+
+//Array
