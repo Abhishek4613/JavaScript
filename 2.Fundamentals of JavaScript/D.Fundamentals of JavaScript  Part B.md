@@ -18,7 +18,7 @@ Use the if statement to specify a block of JavaScript code to be executed if a c
 ```
 if (condition) {
   //  block of code to be executed if the condition is true
-} 
+}
 ```
 
 ### The if-else Statement
@@ -76,11 +76,11 @@ switch(expression) {
 
 **Expression and Statement**
 
-An expression is a combination of values, variables, and operators that can be evaluated to produce a single value. Expressions can be used in various contexts such as assigning values to variables, passing arguments to functions, or as operands in mathematical or logical operations. e.g. 2 + 5 or x*y
+An expression is a combination of values, variables, and operators that can be evaluated to produce a single value. Expressions can be used in various contexts such as assigning values to variables, passing arguments to functions, or as operands in mathematical or logical operations. e.g. 2 + 5 or x\*y
 
-A statement is a complete instruction that performs some action or controls the flow of a program. Statements can be simple or compound, and they are used to create blocks of code that perform specific tasks. e.g. x = "New Delhi" or z = 2**3
+A statement is a complete instruction that performs some action or controls the flow of a program. Statements can be simple or compound, and they are used to create blocks of code that perform specific tasks. e.g. x = "New Delhi" or z = 2\*\*3
 
-### The JavaScript Conditional(Ternary) Operator 
+### The JavaScript Conditional(Ternary) Operator
 
 The JavaScript conditional operator, also known as the ternary operator, is a shorthand way of writing an if-else statement. It is represented by the ? and : symbols and takes the following form:
 
@@ -92,11 +92,7 @@ The JavaScript conditional operator, also known as the ternary operator, is a sh
 
 Here, the condition is evaluated first. If it is true, the trueExpression is executed otherwise, the false Expression is executed.
 
-
-## JavaScript  Iterative Statement
-
-
-
+## JavaScript Iterative Statement
 
 ## JavaScript Functions
 
@@ -105,7 +101,6 @@ JavaScript functions are a way to group a block of code that performs a specific
 ### Function Declaration and Function Expression
 
 In JavaScript, there are two ways to define functions: function declarations and function expressions.
-
 
 **Function Declaration**
 
@@ -142,7 +137,7 @@ An arrow function is a shorthand way of writing a function in JavaScript. It is 
 ```
 (parameters) => { statement }
 
-or 
+or
 
 (parameters) => expression
 ```
@@ -170,5 +165,3 @@ function secondFunction() {
 
 secondFunction();
 ```
-
-
