@@ -338,6 +338,8 @@ console.log(total);
 
 // Array Methods
 
+//at
+
 // length()
 
 const fruitsA = ["Banana", "Orange", "Apple", "Mango"];
@@ -348,6 +350,7 @@ console.log(size);
 
 const fruitsB = ["Banana", "Orange", "Apple", "Mango"];
 let strings = fruitsB.toString;
+console.log(fruitsB);
 console.log(strings);
 
 // join()
@@ -366,4 +369,21 @@ console.log(pop);
 
 const fruitsE = ["Banana", "Orange", "Apple", "Mango"];
 let push = fruitsE.push("Kiwi");
+console.log(fruitsE);
 console.log(push);
+
+// shift()
+
+const fruitsF = ["Banana", "Orange", "Apple", "Mango"];
+let shift = fruitsF.shift();
+console.log(fruitsF);
+console.log(shift);
+
+// unshift()
+
+const fruitsG = ["Banana", "Orange", "Apple", "Mango"];
+let unshifted = fruitsG.unshift("Kiwi");
+console.log(fruitsG);
+console.log(unshifted);
+
+//
