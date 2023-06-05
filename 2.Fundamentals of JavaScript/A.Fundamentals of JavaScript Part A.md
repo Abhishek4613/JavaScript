@@ -251,7 +251,7 @@ An array is a special variable, which can hold more than one value and we can ac
 const cars = ["Saab", "Volvo", "BMW"];
 ```
 
-### Creaing an Array:
+### Creating an Array:
 
 - **Using Array Literal**:
 
@@ -265,7 +265,7 @@ const array_name = [Item1, Item2, ...];
 const cars = new Array("Saab", "Volvo", "BMW");
 ```
 
-### Accessing
+### Accessing an Array:
 
 ## JavaScript - Array Methods
 
