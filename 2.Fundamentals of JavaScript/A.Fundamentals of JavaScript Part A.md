@@ -282,18 +282,20 @@ const cars = ["Saab", "Volvo", "BMW"];
 
 ### Creaing an Array:
 
--**Using Array Literal**:
+- **Using Array Literal**:
 
 ```
 const array_name = [Item1, Item2, ...];
 ```
 
--**Using Keyword**:
+- **Using Keyword**:
 
 ```
 const cars = new Array("Saab", "Volvo", "BMW");
 ```
 
+### Accessing
+
 ## JavaScript - Array Methods
 
-- **.length()**:
+- **.length()**: The length property returns the length (size) of an array.

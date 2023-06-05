@@ -335,3 +335,35 @@ var total = `Total: ${(price * (1 + VAT)).toFixed(2)}`;
 console.log(total);
 
 //Array
+
+// Array Methods
+
+// length()
+
+const fruitsA = ["Banana", "Orange", "Apple", "Mango"];
+let size = fruitsA.length;
+console.log(size);
+
+// toString()
+
+const fruitsB = ["Banana", "Orange", "Apple", "Mango"];
+let strings = fruitsB.toString;
+console.log(strings);
+
+// join()
+
+const fruitsC = ["Banana", "Orange", "Apple", "Mango"];
+let join = fruitsC.join("*");
+console.log(join);
+
+// pop()
+
+const fruitsD = ["Banana", "Orange", "Apple", "Mango"];
+let pop = fruitsD.pop();
+console.log(pop);
+
+// push()
+
+const fruitsE = ["Banana", "Orange", "Apple", "Mango"];
+let push = fruitsE.push("Kiwi");
+console.log(push);
