@@ -202,65 +202,36 @@ In JavaScript, a string is a sequence of characters enclosed within single quote
 
 ## JavaScript - String Methods
 
-- **length**: Returns the length of any string.
-
-- **slice()**: Extracts a part of a string and returns the extracted part in a new string.
-  - The method takes 2 parameters: start position, and end position (end not included).
-  - If you omit the second parameter, the method will slice out the rest of the string.
-  - If a parameter is negative, the position is counted from the end of the string.
-- **substring()**: It is similar to the slice. The only difference is that start and end values less than 0 are treated as 0 in substring().
-
-- **substr()**: It is similar to slice().
-  The only difference is that the second parameter specifies the length of the extracted part.
-
-- **replace()**: The replace() method replaces a specified value with another value in a string.
-
-  - The replace() method does not change the string it is called on.
-  - The replace() method returns a new string.
-  - The replace() method replaces only the first match.
-  - If you want to replace all matches, use a regular expression with the /g flag set.
-  - The replace() method is case sensitive.
-  - To replace case insensitive, use a regular expression with an /i flag set.
-
-- **replaceAll()**:
-
-- **toUpperCase()**: A string is converted to upper case with toUpperCase().
-
-- **toLowerCase()**: A string is converted to lower case with toLowerCase().
-
-- **concat()**: It joins two or more strings. The concat() method can be used instead of the plus operator.
-
-- **trim()**: Removes whitespace from both sides of a string.
-
-- **trimStart()**: Removes whitespace only from the start of a string.
-
-- **trimEnd()**: Removes whitespace only from the end of a string.
-
-- **padStart()**: It pads a string with another string (multiple times) until it reaches a given length from the start.
-
-- **padEnd()**: It pads a string with another string (multiple times) until it reaches a given length from the end.
-
-- **charAt()**: Returns the character at a specified index (position) in a string.
-
-- **charCodeAt()**: Returns the unicode of the character at a specified index (position) in a string
-
-- **split()**: This method is used to split a string into an array of substrings based on a specified separator.
-
-- **indexOf()**: Returns the index (position) of the first occurrence of a specified text in a string. It does not support regular repression.
-
-- **lastIndexOf()**: Returns the index (position) of the last occurrence of a specified text in a string
-
-- **search()**: Searches a string for a string or a regular expression and returns the position of the match.
-
-- **match()**: Returns an array containing the results of matching a string against a string or a regular expression.
-
-- **matchAll()**: Returns an iterator containing the results of matching a string against a string or a regular expression.
-
-- **includes()**: Returns true if a string contains a specified value. Otherwise it returns false. It can take second argument as index from where we want to search begins.
-
-- **startsWith()**: Returns true if a string begins with a specified value. It can take second argument as index from where we want to search begins.
-
-- **endsWith()**: Returns true if a string ends with a specified value. It can take second argument as index from where we want to search begins.
+charAt() Returns the character at a specified index (position)
+charCodeAt() Returns the Unicode of the character at a specified index
+concat() Returns two or more joined strings
+constructor Returns the string's constructor function
+endsWith() Returns if a string ends with a specified value
+fromCharCode() Returns Unicode values as characters
+includes() Returns if a string contains a specified value
+indexOf() Returns the index (position) of the first occurrence of a value in a string
+lastIndexOf() Returns the index (position) of the last occurrence of a value in a string
+length Returns the length of a string
+localeCompare() Compares two strings in the current locale
+match() Searches a string for a value, or a regular expression, and returns the matches
+prototype Allows you to add properties and methods to an object
+repeat() Returns a new string with a number of copies of a string
+replace() Searches a string for a value, or a regular expression, and returns a string where the values are replaced
+search() Searches a string for a value, or regular expression, and returns the index (position) of the match
+slice() Extracts a part of a string and returns a new string
+split() Splits a string into an array of substrings
+startsWith() Checks whether a string begins with specified characters
+substr() Extracts a number of characters from a string, from a start index (position)
+substring() Extracts characters from a string, between two specified indices (positions)
+toLocaleLowerCase() Returns a string converted to lowercase letters, using the host's locale
+toLocaleUpperCase() Returns a string converted to uppercase letters, using the host's locale
+toLowerCase() Returns a string converted to lowercase letters
+toString() Returns a string or a string object as a string
+toUpperCase() Returns a string converted to uppercase letters
+trim() Returns a string with removed whitespaces
+trimEnd() Returns a string with removed whitespaces from the end
+trimStart() Returns a string with removed whitespaces from the start
+valueOf() Returns the primitive value of a string or a string object
 
 ## JavaScript Template Literals
 
@@ -298,28 +269,14 @@ const cars = new Array("Saab", "Volvo", "BMW");
 
 ## JavaScript - Array Methods
 
-- **.length()**: The length property returns the length (size) of an array.
-
-- **.toString()**: The toString() converts an array to a string of (comma separated) array values.
-
-- **.join()**: The join() method also joins all array elements into a string, but in addition we can specify the separator.
-
-- **.pop()**: The pop() method removes the last element from an array, and returns the value that was "popped out".
-
-- **push()**: The push() method adds a new element to an array (at the end), and return the new array length.
-
-- **.shift()**: The shift() method removes the first array element and "shifts" all other elements to a lower index, and returns the value that was "shifted out".
-
-- **.unshift()**: The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements, and return the new array length.
-
 - **at()**: Returns an indexed element of an array.
 - **concat()**: Joins arrays and returns an array with the joined arrays
 - **constructor**: Returns the function that created the Array object's prototype
 - **copyWithin()**: Copies array elements within the array, to and from specified positions
-- **entries()**: Returns a key/value pair Array Iteration Object
-- **every()**: Checks if every element in an array pass a test
-  fill() Fill the elements in an array with a static value
-  filter() Creates a new array with every element in an array that pass a test
+- **entries()**: Returns a key/value pair Array Iteration Object.
+- **every()**: Checks if every element in an array pass a test.
+- **fill()**: Fill the elements in an array with a static value
+- **filter()**: Creates a new array with every element in an array that pass a test.
   find() Returns the value of the first element in an array that pass a test
   findIndex() Returns the index of the first element in an array that pass a test
   flat() Concatenates sub-array elements
