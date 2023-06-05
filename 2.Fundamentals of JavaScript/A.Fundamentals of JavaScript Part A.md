@@ -299,3 +299,15 @@ const cars = new Array("Saab", "Volvo", "BMW");
 ## JavaScript - Array Methods
 
 - **.length()**: The length property returns the length (size) of an array.
+
+- **.toString()**: The toString() converts an array to a string of (comma separated) array values.
+
+- **.join()**: The join() method also joins all array elements into a string, but in addition we can specify the separator.
+
+- **.pop()**: The pop() method removes the last element from an array, and returns the value that was "popped out".
+
+- **push()**: The push() method adds a new element to an array (at the end), and return the new array length.
+
+- **.shift()**: The shift() method removes the first array element and "shifts" all other elements to a lower index, and returns the value that was "shifted out".
+
+- **.unshift()**: The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements, and return the new array length.
