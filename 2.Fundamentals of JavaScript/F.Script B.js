@@ -207,8 +207,12 @@ const detailsAbhishek = {
 
 console.log(detailsAbhishek);
 
+//Accessing Value using Dot
+
 console.log(detailsAbhishek.firstName);
 console.log(detailsAbhishek.friends);
+
+//Accessing Value using Bracket
 
 const nameKey = "Name";
 console.log(detailsAbhishek["first" + nameKey]);
@@ -219,6 +223,8 @@ const interestedIn = prompt(
 );
 console.log(detailsAbhishek[interestedIn]);
 
+//Adding Key Value in Existing Object
+
 detailsAbhishek.location = "Ghaziabad";
 detailsAbhishek.twitter = "@abhishek9223";
 
@@ -227,3 +233,20 @@ console.log(detailsAbhishek);
 console.log(
   `${detailsAbhishek.firstName} has ${detailsAbhishek.friends.length} friends and his best friend is ${detailsAbhishek.friends[0]}`
 );
+
+//Adding Funtion in Object and Calling the Function
+
+const detailsAbhishek = {
+  firstName: "Abhishek",
+  lastName: "Kumar",
+  birthYear: 1994,
+  profession: "Software Developer",
+  friends: ["Abhay", "Anupam", "Saurabh"],
+  hasDrivingLicense: true,
+  calculateAge: function (birthYear) {
+    return 2023 - birthYear;
+  },
+};
+
+console.log(detailsAbhishek.calculateAge(detailsAbhishek.birthYear));
+console.log(detailsAbhishek["calculateAge"](detailsAbhishek.birthYear));

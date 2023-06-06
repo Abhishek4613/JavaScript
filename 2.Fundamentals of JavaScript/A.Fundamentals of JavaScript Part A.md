@@ -247,10 +247,6 @@ In JavaScript, a string is a sequence of characters enclosed within single quote
 
 An array is a special variable, which can hold more than one value and we can access the values by referring to an index number.
 
-```
-const cars = ["Saab", "Volvo", "BMW"];
-```
-
 ### Creating an Array:
 
 - **Using Array Literal**:
@@ -270,7 +266,7 @@ const cars = new Array("Saab", "Volvo", "BMW");
 ## JavaScript - Array Methods
 
 - **at()**: Returns an indexed element of an array.
-- **concat()**: Joins arrays and returns an array with the joined arrays.
+- **concat()**: Joins arrays and returns an array with the joined arrays.git
 - **constructor**: Returns the function that created the Array object's prototype.
 - **copyWithin()**: Copies array elements within the array, to and from specified positions.
 - **entries()**: Returns a key/value pair Array Iteration Object.
@@ -305,3 +301,7 @@ const cars = new Array("Saab", "Volvo", "BMW");
 - **toString()**: Converts an array to a string, and returns the result
 - **unshift()**: Adds new elements to the beginning of an array, and returns the new length.
 - **valueOf()**: Returns the primitive value of an array.
+
+## JavaScript - Introduction to Objects
+
+### Creating an Object:
